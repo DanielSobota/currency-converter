@@ -1,0 +1,60 @@
+.form__labelText {
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+    margin-right: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.form__field {
+    border: 1px solid #999999;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #00ffff0a;
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
+}
+
+.form__fieldset {
+    border: 1px solid #999999;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.form__gettingMoney {
+    font-size: x-large;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
